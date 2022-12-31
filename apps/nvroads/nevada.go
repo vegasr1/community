@@ -13,13 +13,13 @@ var source []byte
 // New creates a new instance of the Nevada Highway Signs applet.
 func New() manifest.Manifest {
 	return manifest.Manifest{
-		ID:          "nv-highway-signs",
-		Name:        "NV Highway Signs",
+		ID:          "nvroads",
+		Name:        "NV Roads",
 		Author:      "Richard Du Bois",
 		Summary:     "Displays NV highway signs",
 		Desc:        "Displays messages from overhead signs on Nevada highways.",
-		FileName:    "nv_highway_signs.star",
-		PackageName: "nvhighwaysigns",
+		FileName:    "nvroads.star",
+		PackageName: "nvroadss",
 		Source:      source,
 	}
 }
