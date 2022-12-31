@@ -1,5 +1,5 @@
 // Package nvhighwaysigns provides details for the NV Highway Signs applet.
-package nvhighwaysigns
+package nvroads
 
 import (
 	_ "embed"
@@ -16,10 +16,10 @@ func New() manifest.Manifest {
 		ID:          "nvroads",
 		Name:        "NV Roads",
 		Author:      "Richard Du Bois",
-		Summary:     "Displays NV highway signs",
+		Summary:     "Displays NV Road signs",
 		Desc:        "Displays messages from overhead signs on Nevada highways.",
 		FileName:    "nvroads.star",
-		PackageName: "nvroadss",
+		PackageName: "nvroads",
 		Source:      source,
 	}
 }
