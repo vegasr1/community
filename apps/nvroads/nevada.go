@@ -14,8 +14,8 @@ var source []byte
 func New() manifest.Manifest {
 	return manifest.Manifest{
 		ID:          "nvroads",
-		Name:        "NV Roads",
-		Author:      "Richard Du Bois",
+		Name:        "NVRoads",
+		Author:      "iAmVegas",
 		Summary:     "Displays NV Road signs",
 		Desc:        "Displays messages from overhead signs on Nevada highways.",
 		FileName:    "nvroads.star",
