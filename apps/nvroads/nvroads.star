@@ -2,7 +2,7 @@
 Applet: NVRoads
 Summary: Displays NV Road message Signs
 Description: Displays messages from overhead signs on Nevada highways.
-Author: RichardDuBois
+Author: iAmVegas
 """
 
 load("render.star", "render")
